@@ -5,8 +5,8 @@
     <classes>
       <class name="com.petpooja.Testcases.LoginTestPetpooja">
         <methods>
-          <include name="loginApp"/>
           <include name="tearDown"/>
+          <include name="SelectRestaurant"/>
           <include name="tearDownMethod"/>
           <include name="setUpSuite"/>
           <include name="setup"/>

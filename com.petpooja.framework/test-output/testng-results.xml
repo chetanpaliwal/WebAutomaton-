@@ -1,36 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6041" started-at="2019-03-04T05:14:59Z" finished-at="2019-03-04T05:15:06Z">
+  <suite name="Default suite" duration-ms="10820" started-at="2019-03-15T13:27:09Z" finished-at="2019-03-15T13:27:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6041" started-at="2019-03-04T05:14:59Z" finished-at="2019-03-04T05:15:06Z">
+    <test name="Default test" duration-ms="10820" started-at="2019-03-15T13:27:09Z" finished-at="2019-03-15T13:27:20Z">
       <class name="com.petpooja.Testcases.LoginTestPetpooja">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="setUpSuite" is-config="true" duration-ms="366" started-at="2019-03-04T05:14:59Z" finished-at="2019-03-04T05:14:59Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="setUpSuite" is-config="true" duration-ms="363" started-at="2019-03-15T13:27:09Z" finished-at="2019-03-15T13:27:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="setup" is-config="true" duration-ms="4523" started-at="2019-03-04T05:14:59Z" finished-at="2019-03-04T05:15:04Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="setup" is-config="true" duration-ms="5705" started-at="2019-03-15T13:27:09Z" finished-at="2019-03-15T13:27:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="loginApp" duration-ms="351" started-at="2019-03-04T05:15:04Z" finished-at="2019-03-04T05:15:04Z">
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="loginApp" duration-ms="246" started-at="2019-03-15T13:27:15Z" finished-at="2019-03-15T13:27:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="tearDownMethod" is-config="true" duration-ms="420" started-at="2019-03-04T05:15:04Z" finished-at="2019-03-04T05:15:05Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="tearDownMethod" is-config="true" duration-ms="934" started-at="2019-03-15T13:27:15Z" finished-at="2019-03-15T13:27:16Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestPetpooja.loginApp()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestPetpooja.loginApp()[pri:1, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="tearDown" is-config="true" duration-ms="726" started-at="2019-03-04T05:15:05Z" finished-at="2019-03-04T05:15:06Z">
+        <test-method status="PASS" signature="SelectRestaurant()[pri:2, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="SelectRestaurant" duration-ms="2771" started-at="2019-03-15T13:27:16Z" finished-at="2019-03-15T13:27:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectRestaurant -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="tearDownMethod" is-config="true" duration-ms="512" started-at="2019-03-15T13:27:19Z" finished-at="2019-03-15T13:27:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SelectRestaurant status=SUCCESS method=LoginTestPetpooja.SelectRestaurant()[pri:2, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.petpooja.Testcases.LoginTestPetpooja@3bfdc050]" name="tearDown" is-config="true" duration-ms="624" started-at="2019-03-15T13:27:19Z" finished-at="2019-03-15T13:27:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Chetan\AppData\Local\Temp\testng-eclipse--558041812\testng-customsuite.xml</span>
+                    <span>C:\Users\Chetan\AppData\Local\Temp\testng-eclipse--699894186\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.petpooja.Testcases.LoginTestPetpooja" hash-for-method="SelectRestaurant">SelectRestaurant</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.petpooja.Testcases.LoginTestPetpooja" hash-for-method="loginApp">loginApp</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="SelectRestaurant">
+                  </a> <!-- SelectRestaurant -->
+                  <span class="method-name">SelectRestaurant</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="loginApp">
                   </a> <!-- loginApp -->
                   <span class="method-name">loginApp</span>
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Chetan\AppData\Local\Temp\testng-eclipse--558041812\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Chetan\AppData\Local\Temp\testng-eclipse--699894186\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginApp')
+data.setCell(0, 1, 'SelectRestaurant')
 data.setCell(0, 2, 'com.petpooja.Testcases.LoginTestPetpooja')
-data.setCell(0, 3, 351);
+data.setCell(0, 3, 2771);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginApp')
+data.setCell(1, 2, 'com.petpooja.Testcases.LoginTestPetpooja')
+data.setCell(1, 3, 246);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 351 ms</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -226,19 +242,27 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">setup</span>
-                <span class="method-start">370 ms</span>
+                <span class="method-start">368 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginApp</span>
-                <span class="method-start">4907 ms</span>
+                <span class="method-start">6091 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">tearDownMethod([TestResult name=loginApp status=SUCCESS method=LoginTestPetpooja.loginApp()[pri:0, instance:com.pet...)</span>
-                <span class="method-start">5259 ms</span>
+                <span class="method-name">tearDownMethod([TestResult name=loginApp status=SUCCESS method=LoginTestPetpooja.loginApp()[pri:1, instance:com.pet...)</span>
+                <span class="method-start">6338 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">SelectRestaurant</span>
+                <span class="method-start">7273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDownMethod([TestResult name=SelectRestaurant status=SUCCESS method=LoginTestPetpooja.SelectRestaurant()[pri:2, ...)</span>
+                <span class="method-start">10045 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">5679 ms</span>
+                <span class="method-start">10558 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
