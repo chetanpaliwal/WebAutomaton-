@@ -1,17 +1,14 @@
 package com.petpooja.Testcases;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
+
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import com.petpooja.Pages.BaseClass;
 import com.petpooja.Pages.LoginPage;
 
 
 /*
- * Author QA_Chetann
+ * Author QA_Chetan
  */
 
 public class LoginTestPetpooja extends BaseClass {
