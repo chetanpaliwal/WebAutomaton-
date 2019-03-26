@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.petpooja.Testcases.LoginTestPetpooja">
+      <class name="com.petpooja.Testcases.AddMenuItems">
         <methods>
           <include name="tearDown"/>
-          <include name="SelectRestaurant"/>
           <include name="tearDownMethod"/>
+          <include name="AdditmesInMenu"/>
           <include name="setUpSuite"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.petpooja.Testcases.LoginTestPetpooja -->
+      </class> <!-- com.petpooja.Testcases.AddMenuItems -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
